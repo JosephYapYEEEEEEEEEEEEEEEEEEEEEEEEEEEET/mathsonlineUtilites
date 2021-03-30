@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mathsonline Utilties",
+  "description": "Show theme button",
+  "version": "1.0.3",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-aaur5fU92aMgld0tAXsis8/fFNv3jlm7dVNQy3NOzAM=' 'sha256-y/Umq58Whjcb65Odep9EpwU/u22NAPQTj80FYKTxcIY='",
+  "web_accessible_resources": ["script.js"],
+  "content_scripts": [
+    {
+      "run_at" :"document_end",
+      "matches": ["https://mathsonline.com.au/students/lessons/*","https://www.mathsonline.com.au/students/lessons/*","https://mathsonline.com.au/students/worksheets/*","https://www.mathsonline.com.au/students/worksheets/*"],
+      "js": ["script.js"]
+    },
+    {
+      "run_at" :"document_end",
+      "matches": ["https://mathsonline.com.au/students/tasks","https://www.mathsonline.com.au/students/tasks"],
+      "js": ["script2.js"]
+    }
+  ],
+  "permissions": [
+   "activeTab"
+   ]
+}
