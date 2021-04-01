@@ -21,6 +21,11 @@
       "run_at" :"document_end",
       "matches": ["https://mathsonline.com.au/students/tasks","https://www.mathsonline.com.au/students/tasks"],
       "js": ["script2.js"]
+    },
+    {
+      "run_at" :"document_end",
+      "matches": ["https://www.mathsonline.com.au/students/diagnostics/*","https://www.mathsonline.com.au/students/diagnostics/*"],
+      "js": ["script3.js"]
     }
   ],
   "permissions": [
