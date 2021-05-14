@@ -23,11 +23,6 @@
       "js": ["script2.js"]
     },
     {
-      "run_at" :"document_end",
-      "matches": ["https://www.mathsonline.com.au/students/diagnostics/*","https://www.mathsonline.com.au/students/diagnostics/*"],
-      "js": ["script3.js"]
-    },
-        {
       "run_at" :"document_start",
       "matches": ["https://mathsonline.com.au/students/settings","https://www.mathsonline.com.au/students/settings"],
       "js": ["script4.js"]
