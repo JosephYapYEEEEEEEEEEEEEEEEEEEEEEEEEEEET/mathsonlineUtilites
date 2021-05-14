@@ -3,7 +3,7 @@
 
   "name": "Mathsonline Utilties",
   "description": "Show theme button",
-  "version": "1.0.5",
+  "version": "1.0.6",
 
   "browser_action": {
    "default_icon": "icon.png",
