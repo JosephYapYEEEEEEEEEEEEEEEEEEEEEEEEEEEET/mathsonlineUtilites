@@ -1,5 +1,5 @@
 function runscript() {
-if(localStorage.checkedShowVideo != 1) {
+if(localStorage.checkedSettings != 1) {
 d = document.createElement("div");
 d.innerHTML = `1`;
 d.style = "position:absolute; top: 1px; right: 1px;";
