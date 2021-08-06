@@ -1,7 +1,7 @@
 function runscript() {
   if(!!localStorage.checkedShowVideo) {
     localStorage.checkedSettings = localStorage.checkedShowVideo;
-    localStorage.remove(checkedShowVideo);
+    localStorage.remove("checkedShowVideo");
   }
   if(localStorage.checkedSettings != 1) {
     d = document.createElement("div");
