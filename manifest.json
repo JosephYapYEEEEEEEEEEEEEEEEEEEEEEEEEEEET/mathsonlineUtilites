@@ -3,13 +3,12 @@
 
   "name": "Mathsonline Utilties",
   "description": "Show theme button",
-  "version": "1.0.6",
+  "version": "1.0.7",
 
   "browser_action": {
    "default_icon": "icon.png",
    "default_popup": "popup.html"
   },
-  "content_security_policy": "script-src 'self' 'sha256-aaur5fU92aMgld0tAXsis8/fFNv3jlm7dVNQy3NOzAM=' 'sha256-y/Umq58Whjcb65Odep9EpwU/u22NAPQTj80FYKTxcIY='",
   "web_accessible_resources": ["script.js"],
   "content_scripts": [
     {
